@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Screen Walk — Walk to unlock your apps</title>
+<meta name="description" content="Screen Walk locks your distracting apps and lets you earn screen time by walking. Privacy policy and support.">
+<style>
+  :root { color-scheme: light dark; --bg:#f4f1e8; --fg:#12261b; --muted:#4f5e55; --accent:#227442; --card:#ffffff; --border:#dfe6e0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b1a12; --fg:#eef4ef; --muted:#a8b5ac; --accent:#5fd98a; --card:#12261b; --border:#1f3a2b; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.8px; margin: 0 0 8px; }
+  h2 { font-size: 26px; letter-spacing: -0.4px; margin: 56px 0 12px; }
+  h3 { font-size: 18px; margin: 24px 0 6px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; margin: 20px 0; }
+  a { color: var(--accent); }
+  nav a { margin-right: 18px; }
+  .ring { display:inline-block; width:56px; height:56px; border-radius:50%; border:8px solid var(--accent); border-top-color: var(--border); vertical-align: middle; margin-right: 14px; }
+  footer { margin-top: 64px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p><span class="ring"></span><strong>Screen Walk</strong></p>
+  <h1>Your apps stay locked until you walk.</h1>
+  <p class="muted">Screen Walk turns your steps into screen time. Pick the apps and websites that pull you in; every 250 steps you take earns a minute of screen time. Spend it on a timed break, then the lock comes back on its own. Unspent minutes roll over one day, then expire.</p>
+  <nav><a href="#privacy">Privacy Policy</a><a href="#support">Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple EULA)</a></nav>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <p class="muted">Effective 6 September 2026</p>
+  <div class="card">
+    <p><strong>The short version:</strong> Screen Walk has no accounts, no ads, no analytics and no tracking. Your steps and your app selections are processed on your iPhone and never leave it. The only third party involved is Apple (for purchases) and RevenueCat (to validate those purchases).</p>
+  </div>
+  <h3>What the app reads on your device</h3>
+  <ul>
+    <li><strong>Step count (Apple Health).</strong> With your permission, Screen Walk reads your daily step count from Apple Health to convert steps into unlock minutes. It never writes to Health, never reads other health data, and never sends step data anywhere. Steps typed into the Health app by hand are ignored.</li>
+    <li><strong>Apps and websites you choose to lock (Screen Time).</strong> Screen Walk uses Apple's Family Controls, Managed Settings and Device Activity frameworks. Apple's picker returns opaque tokens for your selection; the app cannot see which apps they are, and the tokens stay on your device.</li>
+    <li><strong>Your settings and minute balance</strong> (steps-per-minute rate, minutes spent, break timers) are stored locally on the device.</li>
+  </ul>
+  <h3>Purchases</h3>
+  <p>Subscriptions and the lifetime purchase are processed by Apple. To confirm that a purchase is active, the app sends the App Store receipt and an anonymous, randomly generated app user ID to RevenueCat, our subscription infrastructure provider. RevenueCat does not receive your name, email, health data or app selections. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
+  <h3>What we do not do</h3>
+  <ul>
+    <li>No account or sign-in. We do not collect your name, email or contacts.</li>
+    <li>No advertising, no analytics SDKs, no tracking across apps or websites, and no sale of data.</li>
+    <li>No server of our own: the app has no backend that stores your data.</li>
+  </ul>
+  <h3>Notifications</h3>
+  <p>The app schedules local notifications on your device (for example when a break ends). Nothing is sent to a push service.</p>
+  <h3>Children</h3>
+  <p>Screen Walk is a self-control tool for the device owner and is not directed at children under 13. It is not a parental-control product and does not monitor anyone else's device.</p>
+  <h3>Your choices</h3>
+  <p>You can revoke Health access in Settings › Health › Data Access, revoke Screen Time access in Settings › Screen Time, and delete all app data by deleting the app. Subscriptions are managed in your App Store account settings.</p>
+  <h3>Changes and contact</h3>
+  <p>If this policy changes, the new version will be published on this page with a new effective date. Questions: <a href="mailto:akseltulazoglu@yahoo.com">akseltulazoglu@yahoo.com</a>.</p>
+
+  <h2 id="support">Support</h2>
+  <div class="card">
+    <p>Email <a href="mailto:akseltulazoglu@yahoo.com">akseltulazoglu@yahoo.com</a> and we will get back to you within two business days.</p>
+  </div>
+  <h3>Frequently asked</h3>
+  <p><strong>Why is "Spend minutes" disabled?</strong> You need at least 5 minutes in your balance. Minutes come from steps recorded in Apple Health today or yesterday, at your chosen rate (default 250 steps per minute).</p>
+  <p><strong>My steps do not show up.</strong> Make sure Screen Walk has read access under Settings › Health › Data Access & Devices, and that your iPhone or Apple Watch is recording steps. Steps entered by hand in the Health app do not count.</p>
+  <p><strong>How do I turn blocking off?</strong> Settings › press and hold "Turn off blocking" for 15 seconds. Your apps unlock immediately and stay unlocked until you turn it back on from Home.</p>
+  <p><strong>How do I restore a purchase?</strong> Settings › Restore purchases, signed in with the Apple ID used for the purchase.</p>
+  <p><strong>How do I cancel my subscription?</strong> In the App Store app: your profile › Subscriptions, or Settings › Manage subscription inside Screen Walk.</p>
+  <footer>© 2026 Mehmet Aksel Tülezoğlu · Screen Walk is not affiliated with Apple. Apple Health and Screen Time are trademarks of Apple Inc.</footer>
+</main>
+</body>
+</html>
