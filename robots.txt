@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://screen-walk.github.io/sitemap.xml

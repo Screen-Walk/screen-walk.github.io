@@ -3,33 +3,145 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Screen Walk — Walk to unlock your apps</title>
-<meta name="description" content="Screen Walk locks your distracting apps and lets you earn screen time by walking. Privacy policy and support.">
-<style>
-  :root { color-scheme: light dark; --bg:#f4f1e8; --fg:#12261b; --muted:#4f5e55; --accent:#227442; --card:#ffffff; --border:#dfe6e0; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0b1a12; --fg:#eef4ef; --muted:#a8b5ac; --accent:#5fd98a; --card:#12261b; --border:#1f3a2b; } }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
-  h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.8px; margin: 0 0 8px; }
-  h2 { font-size: 26px; letter-spacing: -0.4px; margin: 56px 0 12px; }
-  h3 { font-size: 18px; margin: 24px 0 6px; }
-  p, li { color: var(--fg); }
-  .muted { color: var(--muted); }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; margin: 20px 0; }
-  a { color: var(--accent); }
-  nav a { margin-right: 18px; }
-  .ring { display:inline-block; width:56px; height:56px; border-radius:50%; border:8px solid var(--accent); border-top-color: var(--border); vertical-align: middle; margin-right: 14px; }
-  footer { margin-top: 64px; font-size: 14px; color: var(--muted); }
-</style>
+<title>Screen Walk: Walk to Top Up Screen Time on iPhone</title>
+<meta name="description" content="Screen Walk keeps blocking the apps you choose. Walk to top up minutes, then hold your card to start a break. 7 free days, then one payment.">
+<link rel="canonical" href="https://screen-walk.github.io/">
+<meta name="theme-color" content="#14161B" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#EEF1F6" media="(prefers-color-scheme: light)">
+<meta name="apple-itunes-app" content="app-id=6809172291">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Screen Walk">
+<meta property="og:title" content="Screen Walk: Walk to Top Up Screen Time on iPhone">
+<meta property="og:description" content="Screen Walk keeps blocking the apps you choose. Walk to top up minutes, then hold your card to start a break. 7 free days, then one payment.">
+<meta property="og:url" content="https://screen-walk.github.io/">
+<meta property="og:image" content="https://screen-walk.github.io/media/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Screen Walk: walk to top up your screen time on iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Screen Walk: Walk to Top Up Screen Time on iPhone">
+<meta name="twitter:description" content="Screen Walk keeps blocking the apps you choose. Walk to top up minutes, then hold your card to start a break. 7 free days, then one payment.">
+<meta name="twitter:image" content="https://screen-walk.github.io/media/og.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Screen Walk","operatingSystem":"iOS","applicationCategory":"LifestyleApplication","description":"An iPhone app that keeps blocking the apps and websites you choose. Walking tops up minutes on a fare card, and you start timed breaks of 5 to 60 minutes.","url":"https://screen-walk.github.io/","downloadUrl":"https://apps.apple.com/app/id6809172291","installUrl":"https://apps.apple.com/app/id6809172291","softwareVersion":"1.4.0","inLanguage":"en","image":"https://screen-walk.github.io/media/press/screen-walk-icon-1024.png","screenshot":["https://screen-walk.github.io/media/today-demo.webp","https://screen-walk.github.io/media/spend-sheet.webp","https://screen-walk.github.io/media/break-running.webp","https://screen-walk.github.io/media/insights-top.webp","https://screen-walk.github.io/media/hours-chosen.webp"],"offers":{"@type":"Offer","price":"9.99","priceCurrency":"USD","description":"7 free days, then one payment. No subscription. Other countries see their local price in the app.","url":"https://apps.apple.com/app/id6809172291"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Screen Walk a parental control app?","acceptedAnswer":{"@type":"Answer","text":"No. It is for your own use. You choose the apps and websites, and you decide when blocking runs. It does not monitor anyone else’s phone."}},{"@type":"Question","name":"Do I need an account?","acceptedAnswer":{"@type":"Answer","text":"No. There is no sign-in, no name and no email to give."}},{"@type":"Question","name":"Where do the steps come from?","acceptedAnswer":{"@type":"Answer","text":"From Apple Health, so a phone in your pocket or an Apple Watch both work. Steps typed into the Health app by hand are ignored."}},{"@type":"Question","name":"What happens to minutes I don’t use?","acceptedAnswer":{"@type":"Answer","text":"Minutes you don’t use carry over into tomorrow, then drop off the card."}},{"@type":"Question","name":"Can I turn blocking off?","acceptedAnswer":{"@type":"Answer","text":"Yes, on purpose and with a delay. You press and hold in Settings, then blocking turns off at a coming midnight at least 12 hours away. Until then you can cancel it."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"7 free days, then one payment. There is no subscription and nothing renews. It is $9.99 in the United States; other countries see their local price in the app."}},{"@type":"Question","name":"What does Screen Walk know about me?","acceptedAnswer":{"@type":"Answer","text":"Your step counts, your Health data and the apps you choose stay on your phone. The app does send anonymous usage events to our own server so we can see where people get stuck. The privacy policy below lists them."}},{"@type":"Question","name":"Is it available in other languages?","acceptedAnswer":{"@type":"Answer","text":"Not yet. The interface is English only."}},{"@type":"Question","name":"Why can’t I start a break?","acceptedAnswer":{"@type":"Answer","text":"A break needs at least 5 minutes on your card. Minutes come from steps recorded in Apple Health, at your pace (250 steps for a minute unless you changed it), and minutes you topped up today and yesterday are both on the card. If the card holds fewer than 5 minutes, Today offers an emergency break instead. If you set blocking hours, a break can’t run past the end of the hours, so the longest choice may be shorter."}},{"@type":"Question","name":"My steps do not show up.","acceptedAnswer":{"@type":"Answer","text":"Make sure Screen Walk has read access under Settings › Health › Data Access & Devices, and that your iPhone or Apple Watch is recording steps. Steps entered by hand in the Health app do not count."}},{"@type":"Question","name":"How do I turn blocking off?","acceptedAnswer":{"@type":"Answer","text":"In Screen Walk, open Settings and press and hold Turn off blocking for 15 seconds, then confirm. A pop-up names the real date: blocking turns off at a coming midnight, at least 12 hours after you confirm, so the wait is 12 to 36 hours. Until then, Keep blocking on cancels it. Turning blocking back on is never delayed."}},{"@type":"Question","name":"How do I change when blocking runs?","acceptedAnswer":{"@type":"Answer","text":"Open Settings and choose Blocking hours. All the time is the default; Chosen hours lets you pick days, a start time and an end time. Adding hours starts at once. Choosing fewer hours waits like turning blocking off, and Keep current hours cancels the change until then."}},{"@type":"Question","name":"What is an emergency break?","acceptedAnswer":{"@type":"Answer","text":"A 5-minute break that uses no minutes, for when the card is low. You get one a day by default; Settings lets you choose 0 to 3. The count starts over each day."}},{"@type":"Question","name":"What happens after the 7 free days?","acceptedAnswer":{"@type":"Answer","text":"Screen Walk asks for the one payment. Topping up minutes and starting breaks wait until you have paid. Nothing renews, and no subscription is started."}},{"@type":"Question","name":"How do I restore a purchase?","acceptedAnswer":{"@type":"Answer","text":"Settings › Restore purchases, signed in with the Apple ID used for the purchase."}},{"@type":"Question","name":"Is there a subscription to cancel?","acceptedAnswer":{"@type":"Answer","text":"No subscription is sold now. If you started a monthly or yearly plan earlier, manage it in the App Store app: your profile › Subscriptions."}}]}</script>
 </head>
 <body>
-<main>
-  <p><span class="ring"></span><strong>Screen Walk</strong></p>
-  <h1>Your apps stay locked until you walk.</h1>
-  <p class="muted">Screen Walk turns your steps into screen time. Pick the apps and websites that pull you in; every 250 steps you take earns a minute of screen time. Spend it on a timed break, then the lock comes back on its own. Unspent minutes roll over one day, then expire.</p>
-  <nav><a href="#privacy">Privacy Policy</a><a href="#support">Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple EULA)</a></nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="/"><img src="/media/icon-128.webp" width="32" height="32" alt="" ><span>Screen Walk</span></a>
+<nav class="main" aria-label="Main"><ul><li><a href="/how-it-works/">How it works</a></li><li><a href="/steps-per-minute/">Steps per minute</a></li><li><a href="/blocking-hours/">Blocking hours</a></li><li><a href="/screen-time-app-no-subscription/">Price</a></li><li><a href="/press/">Press</a></li><li><a href="/#support">Support</a></li></ul></nav>
+</div></header>
+<main id="main"><div class="wrap">
+<section class="hero" aria-labelledby="top">
+<div class="hero-text">
+<h1 id="top">Walk to top up your screen time.</h1>
+<p class="lead">Screen Walk keeps blocking the apps and websites you choose on your iPhone. Walking tops up minutes on a fare card, and you hold the card on the reader to start a timed break.</p>
+<div class="cta"><a href="https://apps.apple.com/app/id6809172291"><img src="/media/app-store-badge.svg" width="150" height="50" alt="Download on the App Store"></a><p class="note">7 free days, then one payment. No subscription.</p></div>
+</div>
+<figure class="video" id="hero-video">
+<video autoplay muted loop playsinline preload="none" poster="/media/hero-poster.jpg" width="720" height="720" aria-label="Screen recording of the Start a break sheet: a card is pressed and held on the reader until the break starts and Today shows the time left.">
+<img src="/media/hero-poster.jpg" width="720" height="720" alt="The Start a break sheet in Screen Walk: a fare card showing 47 minutes above a reader, with the text Press and hold your card on the reader.">
+</video>
+</figure>
+</section>
 
+<section aria-labelledby="three">
+<h2 id="three">How it works in three steps</h2>
+<div class="split">
+<div class="prose">
+<ol class="steps">
+<li><strong>Choose what pulls you in.</strong> Pick apps and websites with Apple’s own picker. Screen Walk keeps blocking them, and the list stays on your phone.</li>
+<li><strong>Walk.</strong> Steps come from Apple Health, from your phone or an Apple Watch. By default 250 steps top up 1 minute on your card.</li>
+<li><strong>Start a break.</strong> Choose 5 to 60 minutes and press and hold your card on the reader. Your apps open for that long, and blocking comes back by itself when the break ends.</li>
+</ol>
+<p><a href="/how-it-works/">Read the full walk-through</a></p>
+</div>
+<img src="/media/today-demo.webp" width="600" height="1200" alt="The Today screen of Screen Walk: a blue fare card showing 47 minutes and 140 steps to the next minute, a short log of walks and a break, and a Start a break button.">
+</div>
+</section>
+
+<section aria-labelledby="card">
+<h2 id="card">The card and the reader</h2>
+<div class="split">
+<div class="prose">
+<p>Your minutes live on a transit-style fare card. Walking tops it up; a break uses minutes from it. There is no Start button to tap by accident: you press and hold the card on the reader, and the break begins when the reader confirms.</p>
+<p>When the card is low, an emergency break gives you 5 minutes without using any. You get one a day by default, and Settings lets you choose 0 to 3.</p>
+<p>Minutes you don’t use carry over into tomorrow, then drop off the card.</p>
+</div>
+<img src="/media/spend-sheet.webp" width="600" height="1200" alt="The Start a break sheet over Today: the card above a reader, the text Press and hold your card on the reader, and break lengths of 5, 15, 30 minutes and All." loading="lazy" decoding="async">
+</div>
+</section>
+
+<section aria-labelledby="pace">
+<h2 id="pace">Your pace</h2>
+<div class="prose">
+<p>250 steps top up 1 minute unless you say otherwise. You can set the pace anywhere from 100 to 1,000 steps a minute, in steps of 50, to match how much you want to walk. Here is what a day of walking tops up at a few paces.</p>
+</div>
+<div class="table-wrap"><table>
+<caption class="muted" style="text-align:left;caption-side:bottom;padding-top:.5rem">Whole minutes, rounded down.</caption>
+<thead><tr><th scope="col">Steps for 1 minute</th><th scope="col" class="n">5,000 steps</th><th scope="col" class="n">8,000 steps</th></tr></thead>
+<tbody><tr><td>100</td><td class="n">50</td><td class="n">80</td></tr><tr><td>250</td><td class="n">20</td><td class="n">32</td></tr><tr><td>500</td><td class="n">10</td><td class="n">16</td></tr><tr><td>1,000</td><td class="n">5</td><td class="n">8</td></tr></tbody></table></div>
+<p><a href="/steps-per-minute/">More on steps per minute</a></p>
+</section>
+
+<section aria-labelledby="hours">
+<h2 id="hours">Blocking hours</h2>
+<div class="prose">
+<p>New in 1.4.0. Blocking can run all the time, which is the default, or only on the days and hours you pick. Outside those hours your apps are open, no minutes are used and walking still tops up the card.</p>
+<p><a href="/blocking-hours/">How blocking hours work</a></p>
+</div>
+</section>
+
+<section aria-labelledby="leaves">
+<h2 id="leaves">What it leaves out</h2>
+<div class="split">
+<div class="prose">
+<ul class="plain">
+<li>No streaks to protect or lose.</li>
+<li>No nagging notifications and no reminders to walk.</li>
+<li>No guilt. A low card is just a low card, and goals are optional: they never change your minutes.</li>
+<li>No account and no ads.</li>
+</ul>
+<p>Insights gives you one plain sentence about your week and a simple chart. That is all.</p>
+</div>
+<img src="/media/insights-top.webp" width="600" height="1200" alt="The Insights screen: a sentence about the week, grey bars of minutes topped up each day with today in green, a card statement row and weekly goals." loading="lazy" decoding="async">
+</div>
+</section>
+
+<section aria-labelledby="price">
+<h2 id="price">What it costs</h2>
+<div class="prose">
+<p>7 free days, then one payment. There is no subscription and nothing renews. The price is $9.99 in the United States; other countries see their local price in the app.</p>
+<p><a href="/screen-time-app-no-subscription/">More about the price</a></p>
+</div>
+</section>
+
+<section class="faq" aria-labelledby="questions">
+<h2 id="questions">Questions</h2>
+<div class="prose">
+<h3>Is Screen Walk a parental control app?</h3>
+<p>No. It is for your own use. You choose the apps and websites, and you decide when blocking runs. It does not monitor anyone else’s phone.</p>
+<h3>Do I need an account?</h3>
+<p>No. There is no sign-in, no name and no email to give.</p>
+<h3>Where do the steps come from?</h3>
+<p>From Apple Health, so a phone in your pocket or an Apple Watch both work. Steps typed into the Health app by hand are ignored.</p>
+<h3>What happens to minutes I don’t use?</h3>
+<p>Minutes you don’t use carry over into tomorrow, then drop off the card.</p>
+<h3>Can I turn blocking off?</h3>
+<p>Yes, on purpose and with a delay. You press and hold in Settings, then blocking turns off at a coming midnight at least 12 hours away. Until then you can cancel it.</p>
+<h3>What does it cost?</h3>
+<p>7 free days, then one payment. There is no subscription and nothing renews. It is $9.99 in the United States; other countries see their local price in the app.</p>
+<h3>What does Screen Walk know about me?</h3>
+<p>Your step counts, your Health data and the apps you choose stay on your phone. The app does send anonymous usage events to our own server so we can see where people get stuck. The privacy policy below lists them.</p>
+<h3>Is it available in other languages?</h3>
+<p>Not yet. The interface is English only.</p>
+</div>
+</section>
+
+<div class="legal">
   <h2 id="privacy">Privacy Policy</h2>
   <p class="muted">Effective 11 November 2026</p>
   <div class="card">
@@ -65,12 +177,24 @@
     <p>Email <a href="mailto:akseltulazoglu@yahoo.com">akseltulazoglu@yahoo.com</a> and we will get back to you within two business days.</p>
   </div>
   <h3>Frequently asked</h3>
-  <p><strong>Why is "Spend minutes" disabled?</strong> You need at least 5 minutes in your balance. Minutes come from steps recorded in Apple Health today or yesterday, at your chosen rate (default 250 steps per minute).</p>
-  <p><strong>My steps do not show up.</strong> Make sure Screen Walk has read access under Settings › Health › Data Access & Devices, and that your iPhone or Apple Watch is recording steps. Steps entered by hand in the Health app do not count.</p>
-  <p><strong>How do I turn blocking off?</strong> Settings › press and hold "Turn off blocking" for 15 seconds. Your apps unlock immediately and stay unlocked until you turn it back on from Home.</p>
+  <p><strong>Why can’t I start a break?</strong> A break needs at least 5 minutes on your card. Minutes come from steps recorded in Apple Health, at your pace (250 steps for a minute unless you changed it), and minutes you topped up today and yesterday are both on the card. If the card holds fewer than 5 minutes, Today offers an emergency break instead. If you set blocking hours, a break can’t run past the end of the hours, so the longest choice may be shorter.</p>
+  <p><strong>My steps do not show up.</strong> Make sure Screen Walk has read access under Settings › Health › Data Access &amp; Devices, and that your iPhone or Apple Watch is recording steps. Steps entered by hand in the Health app do not count.</p>
+  <p><strong>How do I turn blocking off?</strong> In Screen Walk, open Settings and press and hold Turn off blocking for 15 seconds, then confirm. A pop-up names the real date: blocking turns off at a coming midnight, at least 12 hours after you confirm, so the wait is 12 to 36 hours. Until then, Keep blocking on cancels it. Turning blocking back on is never delayed.</p>
+  <p><strong>How do I change when blocking runs?</strong> Open Settings and choose Blocking hours. All the time is the default; Chosen hours lets you pick days, a start time and an end time. Adding hours starts at once. Choosing fewer hours waits like turning blocking off, and Keep current hours cancels the change until then.</p>
+  <p><strong>What is an emergency break?</strong> A 5-minute break that uses no minutes, for when the card is low. You get one a day by default; Settings lets you choose 0 to 3. The count starts over each day.</p>
+  <p><strong>What happens after the 7 free days?</strong> Screen Walk asks for the one payment. Topping up minutes and starting breaks wait until you have paid. Nothing renews, and no subscription is started.</p>
   <p><strong>How do I restore a purchase?</strong> Settings › Restore purchases, signed in with the Apple ID used for the purchase.</p>
-  <p><strong>How do I cancel my subscription?</strong> In the App Store app: your profile › Subscriptions, or Settings › Manage subscription inside Screen Walk.</p>
-  <footer>© 2026 Screen Walk is not affiliated with Apple. Apple Health and Screen Time are trademarks of Apple Inc.</footer>
-</main>
-</body>
+  <p><strong>Is there a subscription to cancel?</strong> No subscription is sold now. If you started a monthly or yearly plan earlier, manage it in the App Store app: your profile › Subscriptions.</p>
+</div>
+<section aria-labelledby="get">
+<h2 id="get">Download Screen Walk</h2>
+<div class="cta"><a href="https://apps.apple.com/app/id6809172291"><img src="/media/app-store-badge.svg" width="150" height="50" alt="Download on the App Store"></a><p class="note">7 free days, then one payment. No subscription.<br>$9.99 in the United States; other countries see their local price in the app.</p></div>
+</section>
+</div></main>
+<footer class="site"><div class="wrap">
+<ul><li><a href="/">Home</a></li><li><a href="/how-it-works/">How it works</a></li><li><a href="/walk-to-unlock-apps/">Walk to unlock apps</a></li><li><a href="/earn-screen-time-by-walking/">Earn screen time by walking</a></li><li><a href="/screen-time-app-no-subscription/">No subscription</a></li><li><a href="/steps-per-minute/">Steps per minute</a></li><li><a href="/blocking-hours/">Blocking hours</a></li><li><a href="/press/">Press</a></li><li><a href="/#privacy">Privacy policy</a></li><li><a href="/#support">Support</a></li><li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple EULA)</a></li></ul>
+<p>Screen Walk is an iPhone app. Version 1.4.0. English only. Made by one independent developer.</p>
+<p>© 2026 Screen Walk is not affiliated with Apple. Apple Health and Screen Time are trademarks of Apple Inc.</p>
+</div></footer>
+<script>(function(){var v=document.querySelector("#hero-video video");if(!v||!window.matchMedia)return;if(matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();v.setAttribute("controls","")}})();</script></body>
 </html>
